@@ -1,0 +1,41 @@
+# Software and documentation
+
+Software and documentation in this repository is copyright 2024
+Carolyn Susannah Tysor and licensed under the MIT license. See file
+LICENSE-MIT
+
+# ClimateBC data
+
+Several data files (in data-raw/climateBC and as indicated in various
+entries in R/data.R) are derived from ClimateBC version 7.30. This is
+distributed by https://climatebc.ca and ClimateBC states that its data
+is licensed as "CC-BY" (no version given). In an effort to comply with
+these terms, this package provides a current version (4.0) of the
+CC-BY Creative Commons license in the file LICENSE-CC-BY and affirms
+that all data files indicated as originating with ClimateBC data are
+licensed under those terms.
+
+# PCIC PNWNAmet data
+
+Several other data files (in data-raw/pcic and as indicated in various
+entries in R/data.R) are derived from the Pacific Climate Impact
+Consortium's PNWNAmet dataset. This is distributed on
+https://www.pacificclimate.org and accompanied by a notice that it is
+released under an unspecified "open license". This package reproduces
+these terms here and affirms that all PNWNAmet files are licensed
+under these terms:
+
+## TERMS OF USE
+
+The data is subject to PCIC's terms of use at
+https://www.pacificclimate.org/terms-of-use
+
+## NO WARRANTY
+This data product is provided by the Pacific Climate Impacts Consortium with an
+open license on an “AS IS” basis without any warranty or representation, express
+or implied, as to its accuracy or completeness. Any reliance you place upon the
+information contained here is your sole responsibility and strictly at your own
+risk. In no event will the Pacific Climate Impacts Consortium be liable for any
+loss or damage whatsoever, including without limitation, indirect or
+consequential loss or damage, arising from reliance upon the data or derived
+information.

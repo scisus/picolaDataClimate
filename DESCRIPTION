@@ -1,16 +1,19 @@
 Package: picolaDataClimate
 Title: Climate Data for Lodgepole Pine Seed Orchard Sites
-Version: 0.0.0.9000
+Version: 1.0.0
 Author: C. Susannah Tysor
 Maintainer: C. Susannah Tysor <susannah@pobox.com>
-Description: Raw and processed climate time series data for lodgepole pine
+Description: Raw and processed climate time series data for British Columbia lodgepole pine
     (*Pinus contorta* ssp. *latifolia*) seed orchard sites. Original data is
-    from Pacific Climate Impacts Consortium (data.pacificclimate.org)
+    from Pacific Climate Impacts Consortium (data.pacificclimate.org) and ClimateBC (climatebc.ca).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Imports:
+Depends:
+    R (>= 4.3)
+Suggests:
+    picolaDataFlowering,
     dplyr,
     ggplot2,
     knitr,
@@ -21,4 +24,12 @@ Imports:
     rgbif,
     stringr,
     tidyr,
-    here
+    here,
+    geosphere,
+    callr,
+    tidyverse,
+    devtools,
+    rmarkdown,
+    knitr
+LazyData: true
+Remotes: scisus/picolaDataFlowering
