@@ -1,0 +1,24 @@
+Package: picolaDataClimate
+Title: Climate Data for Lodgepole Pine Seed Orchard Sites
+Version: 0.0.0.9000
+Author: C. Susannah Tysor
+Maintainer: C. Susannah Tysor <susannah@pobox.com>
+Description: Raw and processed climate time series data for lodgepole pine
+    (*Pinus contorta* ssp. *latifolia*) seed orchard sites. Original data is
+    from Pacific Climate Impacts Consortium (data.pacificclimate.org)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    ggplot2,
+    knitr,
+    lubridate,
+    ncdf4,
+    purrr,
+    readr,
+    rgbif,
+    stringr,
+    tidyr,
+    here
