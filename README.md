@@ -3,6 +3,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/scisus/picolaDataClimate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/scisus/picolaDataClimate/actions/workflows/R-CMD-check.yaml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14597516.svg)](https://doi.org/10.5281/zenodo.14597516)
 <!-- badges: end -->
 
 This package contains temperature data for lodgepole pine (*Pinus contorta* ssp. *latifolia*) seed orchard sites plus two northern comparison sites, all in British Columbia.
